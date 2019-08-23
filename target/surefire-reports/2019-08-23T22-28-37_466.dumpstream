@@ -1,0 +1,60 @@
+# Created at 2019-08-23T22:28:37.784
+OpenJDK 64-Bit Server VM warning: Ignoring option PermSize; support was removed in 8.0
+
+# Created at 2019-08-23T22:28:37.784
+OpenJDK 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created at 2019-08-23T22:28:38.329
+Exception in thread "main" java.lang.reflect.InvocationTargetException
+
+# Created at 2019-08-23T22:28:38.329
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created at 2019-08-23T22:28:38.330
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created at 2019-08-23T22:28:38.330
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created at 2019-08-23T22:28:38.331
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+
+# Created at 2019-08-23T22:28:38.331
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:513)
+
+# Created at 2019-08-23T22:28:38.331
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:525)
+
+# Created at 2019-08-23T22:28:38.333
+Caused by: java.lang.RuntimeException: Class java/util/UUID could not be instrumented.
+
+# Created at 2019-08-23T22:28:38.336
+	at org.jacoco.agent.rt.internal_b0d6a23.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:139)
+
+# Created at 2019-08-23T22:28:38.336
+	at org.jacoco.agent.rt.internal_b0d6a23.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:100)
+
+# Created at 2019-08-23T22:28:38.336
+	at org.jacoco.agent.rt.internal_b0d6a23.PreMain.createRuntime(PreMain.java:55)
+
+# Created at 2019-08-23T22:28:38.337
+	at org.jacoco.agent.rt.internal_b0d6a23.PreMain.premain(PreMain.java:47)
+
+# Created at 2019-08-23T22:28:38.337
+	... 6 more
+
+# Created at 2019-08-23T22:28:38.337
+Caused by: java.lang.NoSuchFieldException: $jacocoAccess
+
+# Created at 2019-08-23T22:28:38.338
+	at java.base/java.lang.Class.getField(Class.java:1999)
+
+# Created at 2019-08-23T22:28:38.338
+	at org.jacoco.agent.rt.internal_b0d6a23.core.runtime.ModifiedSystemClassRuntime.createFor(ModifiedSystemClassRuntime.java:137)
+
+# Created at 2019-08-23T22:28:38.338
+	... 9 more
+
+# Created at 2019-08-23T22:28:38.593
+Aborted (core dumped)
+
