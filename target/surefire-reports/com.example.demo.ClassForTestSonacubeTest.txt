@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.example.demo.ClassForTestSonacubeTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.107 s <<< FAILURE! - in com.example.demo.ClassForTestSonacubeTest
+test1(com.example.demo.ClassForTestSonacubeTest)  Time elapsed: 0.021 s  <<< FAILURE!
+java.lang.AssertionError
+	at com.example.demo.ClassForTestSonacubeTest.test1(ClassForTestSonacubeTest.java:13)
+
